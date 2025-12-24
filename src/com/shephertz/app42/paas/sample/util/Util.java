@@ -54,8 +54,7 @@ public class Util {
 	 * This function fetches the DB Port from Config.properties
 	 */
 	public static int getDBPort() {
-		return new Integer("3306");
-		//return new Integer(dbProps.getProperty("app42.paas.db.port"));
+		return new Integer(dbProps.getProperty("app42.paas.db.port"));
 	}
 	
 
